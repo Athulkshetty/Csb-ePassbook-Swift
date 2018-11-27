@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42C6FEEC21AD5B7300847B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C6FEEB21AD5B7300847B97 /* AppDelegate.swift */; };
+		42C6FEEE21AD5B7300847B97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C6FEED21AD5B7300847B97 /* ViewController.swift */; };
+		42C6FEF121AD5B7300847B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C6FEEF21AD5B7300847B97 /* Main.storyboard */; };
+		42C6FEF321AD5B7400847B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C6FEF221AD5B7400847B97 /* Assets.xcassets */; };
+		42C6FEF621AD5B7400847B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C6FEF421AD5B7400847B97 /* LaunchScreen.storyboard */; };
+		42C6FF0121AD5B7400847B97 /* Csb_ePassbook_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C6FF0021AD5B7400847B97 /* Csb_ePassbook_SwiftTests.swift */; };
+		42C6FF0C21AD5B7400847B97 /* Csb_ePassbook_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C6FF0B21AD5B7400847B97 /* Csb_ePassbook_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42C6FEFD21AD5B7400847B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C6FEE021AD5B7300847B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42C6FEE721AD5B7300847B97;
+			remoteInfo = "Csb ePassbook Swift";
+		};
+		42C6FF0821AD5B7400847B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C6FEE021AD5B7300847B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42C6FEE721AD5B7300847B97;
+			remoteInfo = "Csb ePassbook Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42C6FEE821AD5B7300847B97 /* Csb ePassbook Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Csb ePassbook Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C6FEEB21AD5B7300847B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42C6FEED21AD5B7300847B97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42C6FEF021AD5B7300847B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42C6FEF221AD5B7400847B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42C6FEF521AD5B7400847B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42C6FEF721AD5B7400847B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C6FEFC21AD5B7400847B97 /* Csb ePassbook SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Csb ePassbook SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C6FF0021AD5B7400847B97 /* Csb_ePassbook_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Csb_ePassbook_SwiftTests.swift; sourceTree = "<group>"; };
+		42C6FF0221AD5B7400847B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C6FF0721AD5B7400847B97 /* Csb ePassbook SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Csb ePassbook SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C6FF0B21AD5B7400847B97 /* Csb_ePassbook_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Csb_ePassbook_SwiftUITests.swift; sourceTree = "<group>"; };
+		42C6FF0D21AD5B7400847B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C6FEE521AD5B7300847B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C6FEF921AD5B7400847B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C6FF0421AD5B7400847B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C6FEDF21AD5B7300847B97 = {
+			isa = PBXGroup;
+			children = (
+				42C6FEEA21AD5B7300847B97 /* Csb ePassbook Swift */,
+				42C6FEFF21AD5B7400847B97 /* Csb ePassbook SwiftTests */,
+				42C6FF0A21AD5B7400847B97 /* Csb ePassbook SwiftUITests */,
+				42C6FEE921AD5B7300847B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42C6FEE921AD5B7300847B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C6FEE821AD5B7300847B97 /* Csb ePassbook Swift.app */,
+				42C6FEFC21AD5B7400847B97 /* Csb ePassbook SwiftTests.xctest */,
+				42C6FF0721AD5B7400847B97 /* Csb ePassbook SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42C6FEEA21AD5B7300847B97 /* Csb ePassbook Swift */ = {
+			isa = PBXGroup;
+			children = (
+				42C6FEEB21AD5B7300847B97 /* AppDelegate.swift */,
+				42C6FEED21AD5B7300847B97 /* ViewController.swift */,
+				42C6FEEF21AD5B7300847B97 /* Main.storyboard */,
+				42C6FEF221AD5B7400847B97 /* Assets.xcassets */,
+				42C6FEF421AD5B7400847B97 /* LaunchScreen.storyboard */,
+				42C6FEF721AD5B7400847B97 /* Info.plist */,
+			);
+			path = "Csb ePassbook Swift";
+			sourceTree = "<group>";
+		};
+		42C6FEFF21AD5B7400847B97 /* Csb ePassbook SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				42C6FF0021AD5B7400847B97 /* Csb_ePassbook_SwiftTests.swift */,
+				42C6FF0221AD5B7400847B97 /* Info.plist */,
+			);
+			path = "Csb ePassbook SwiftTests";
+			sourceTree = "<group>";
+		};
+		42C6FF0A21AD5B7400847B97 /* Csb ePassbook SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42C6FF0B21AD5B7400847B97 /* Csb_ePassbook_SwiftUITests.swift */,
+				42C6FF0D21AD5B7400847B97 /* Info.plist */,
+			);
+			path = "Csb ePassbook SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42C6FEE721AD5B7300847B97 /* Csb ePassbook Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C6FF1021AD5B7400847B97 /* Build configuration list for PBXNativeTarget "Csb ePassbook Swift" */;
+			buildPhases = (
+				42C6FEE421AD5B7300847B97 /* Sources */,
+				42C6FEE521AD5B7300847B97 /* Frameworks */,
+				42C6FEE621AD5B7300847B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Csb ePassbook Swift";
+			productName = "Csb ePassbook Swift";
+			productReference = 42C6FEE821AD5B7300847B97 /* Csb ePassbook Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42C6FEFB21AD5B7400847B97 /* Csb ePassbook SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C6FF1321AD5B7400847B97 /* Build configuration list for PBXNativeTarget "Csb ePassbook SwiftTests" */;
+			buildPhases = (
+				42C6FEF821AD5B7400847B97 /* Sources */,
+				42C6FEF921AD5B7400847B97 /* Frameworks */,
+				42C6FEFA21AD5B7400847B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C6FEFE21AD5B7400847B97 /* PBXTargetDependency */,
+			);
+			name = "Csb ePassbook SwiftTests";
+			productName = "Csb ePassbook SwiftTests";
+			productReference = 42C6FEFC21AD5B7400847B97 /* Csb ePassbook SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42C6FF0621AD5B7400847B97 /* Csb ePassbook SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C6FF1621AD5B7400847B97 /* Build configuration list for PBXNativeTarget "Csb ePassbook SwiftUITests" */;
+			buildPhases = (
+				42C6FF0321AD5B7400847B97 /* Sources */,
+				42C6FF0421AD5B7400847B97 /* Frameworks */,
+				42C6FF0521AD5B7400847B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C6FF0921AD5B7400847B97 /* PBXTargetDependency */,
+			);
+			name = "Csb ePassbook SwiftUITests";
+			productName = "Csb ePassbook SwiftUITests";
+			productReference = 42C6FF0721AD5B7400847B97 /* Csb ePassbook SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42C6FEE021AD5B7300847B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Lcodetechnologies;
+				TargetAttributes = {
+					42C6FEE721AD5B7300847B97 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					42C6FEFB21AD5B7400847B97 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 42C6FEE721AD5B7300847B97;
+					};
+					42C6FF0621AD5B7400847B97 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 42C6FEE721AD5B7300847B97;
+					};
+				};
+			};
+			buildConfigurationList = 42C6FEE321AD5B7300847B97 /* Build configuration list for PBXProject "Csb ePassbook Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42C6FEDF21AD5B7300847B97;
+			productRefGroup = 42C6FEE921AD5B7300847B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C6FEE721AD5B7300847B97 /* Csb ePassbook Swift */,
+				42C6FEFB21AD5B7400847B97 /* Csb ePassbook SwiftTests */,
+				42C6FF0621AD5B7400847B97 /* Csb ePassbook SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42C6FEE621AD5B7300847B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C6FEF621AD5B7400847B97 /* LaunchScreen.storyboard in Resources */,
+				42C6FEF321AD5B7400847B97 /* Assets.xcassets in Resources */,
+				42C6FEF121AD5B7300847B97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C6FEFA21AD5B7400847B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C6FF0521AD5B7400847B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C6FEE421AD5B7300847B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C6FEEE21AD5B7300847B97 /* ViewController.swift in Sources */,
+				42C6FEEC21AD5B7300847B97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C6FEF821AD5B7400847B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C6FF0121AD5B7400847B97 /* Csb_ePassbook_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C6FF0321AD5B7400847B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C6FF0C21AD5B7400847B97 /* Csb_ePassbook_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42C6FEFE21AD5B7400847B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42C6FEE721AD5B7300847B97 /* Csb ePassbook Swift */;
+			targetProxy = 42C6FEFD21AD5B7400847B97 /* PBXContainerItemProxy */;
+		};
+		42C6FF0921AD5B7400847B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42C6FEE721AD5B7300847B97 /* Csb ePassbook Swift */;
+			targetProxy = 42C6FF0821AD5B7400847B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42C6FEEF21AD5B7300847B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C6FEF021AD5B7300847B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42C6FEF421AD5B7400847B97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C6FEF521AD5B7400847B97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42C6FF0E21AD5B7400847B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42C6FF0F21AD5B7400847B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42C6FF1121AD5B7400847B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Csb ePassbook Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcode.Csb-ePassbook-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42C6FF1221AD5B7400847B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Csb ePassbook Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcode.Csb-ePassbook-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42C6FF1421AD5B7400847B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Csb ePassbook SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcode.Csb-ePassbook-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Csb ePassbook Swift.app/Csb ePassbook Swift";
+			};
+			name = Debug;
+		};
+		42C6FF1521AD5B7400847B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Csb ePassbook SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcode.Csb-ePassbook-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Csb ePassbook Swift.app/Csb ePassbook Swift";
+			};
+			name = Release;
+		};
+		42C6FF1721AD5B7400847B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Csb ePassbook SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcode.Csb-ePassbook-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Csb ePassbook Swift";
+			};
+			name = Debug;
+		};
+		42C6FF1821AD5B7400847B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Csb ePassbook SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcode.Csb-ePassbook-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Csb ePassbook Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42C6FEE321AD5B7300847B97 /* Build configuration list for PBXProject "Csb ePassbook Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C6FF0E21AD5B7400847B97 /* Debug */,
+				42C6FF0F21AD5B7400847B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C6FF1021AD5B7400847B97 /* Build configuration list for PBXNativeTarget "Csb ePassbook Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C6FF1121AD5B7400847B97 /* Debug */,
+				42C6FF1221AD5B7400847B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C6FF1321AD5B7400847B97 /* Build configuration list for PBXNativeTarget "Csb ePassbook SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C6FF1421AD5B7400847B97 /* Debug */,
+				42C6FF1521AD5B7400847B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C6FF1621AD5B7400847B97 /* Build configuration list for PBXNativeTarget "Csb ePassbook SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C6FF1721AD5B7400847B97 /* Debug */,
+				42C6FF1821AD5B7400847B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42C6FEE021AD5B7300847B97 /* Project object */;
+}
