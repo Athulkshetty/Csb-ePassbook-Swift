@@ -12,9 +12,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var viewcontroller:CprMainController?
+    var navigationcontroller:UINavigationController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        viewcontroller = CprMainController(nibName: "CprMainController", bundle: nil)
+        navigationcontroller = UINavigationController(rootViewController: viewcontroller!)
+        self.navigationcontroller?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        window?.rootViewController  = navigationcontroller
+        window?.makeKeyAndVisible()
+        
         // Override point for customization after application launch.
         return true
     }
